@@ -29,25 +29,26 @@ Here are some samples of user input and assistant output:
     </user:input>
     <score>4</score>
     <score_reasons>
-    - BAD: in the vocabulary table it did not show the japanese characters, the cells are just blank
+    - BAD: in the vocabulary table it did not show the japanese kanji characters, the cells are just blank
     - BAD: the beginning sentence is unnecessary, it should just start showing the vocabulary table
     </score_reasons>
     <assistant:output>
     Let's break down the sentence into smaller parts. Here's a possible sentence structure:
-[Existence phrase] + [Question phrase]
-Existence phrase:
-There are bears at the door
-Question phrase:
-Did you leave the garbage out?
-Here's a table of vocabulary to help you:
+    [Existence phrase] + [Question phrase]
+    Existence phrase:
+    There are bears at the door
+    Question phrase:
+    Did you leave the garbage out?
 
-| Japanese	| Romanji	| English |
-|           | kuma      | bear    |
-|           | tobira	| door    |
-|           | gomi	    | garbage |
-|           | noka	    | outside |
-|           | nokosu	| to leave |
-|           | aru	    | to exist |
+    Here's a table of vocabulary to help you:
+
+    | Japanese	| Romanji	| English |
+    |           | kuma      | bear    |
+    |           | tobira	| door    |
+    |           | gomi	    | garbage |
+    |           | noka	    | outside |
+    |           | nokosu	| to leave |
+    |           | aru	    | to exist |
 
 To start, can you try to translate the existence phrase "There are bears at the door" into Japanese? 
 
@@ -56,4 +57,4 @@ What words from the vocabulary table can you use?
 </assistant:output>
 </example>
 
-Student Input: There are bears at the door, did you leave the garbage out?
+Student Input: What color is the sky?
